@@ -104,6 +104,14 @@ body{
 	background-color:#0085C8;  
 }
 
+.banner{
+	text-align: center;
+	margin:auto;
+	line-height: 80px;
+	color:#FFF;
+	font-size: 26px;
+}
+
 .menu{
 	height:40px;
 	background-color:#0085C8; 
@@ -206,7 +214,6 @@ body{
 
 .leftside{
 	float: left;
-	background-color: gray;
 	height: 200px;
 	width: 753px;
 }
@@ -230,4 +237,71 @@ body{
 	text-align:center;
 	padding-top: 5px;
 	padding-bottom: 5px;
+}
+
+.noticia_item{
+	font-size: 14px;
+	margin: 0px 10px;
+	padding: 10px 0px;
+	text-align: left;
+	border-bottom: 1px solid #CCC;
+}
+
+.slideshow{
+	height:335px;
+	overflow:hidden;
+}
+
+.slideshowarea{
+	width:1000000px;
+	height: 335px;
+	transition:all 1s;
+}
+
+.slide{
+	height:335px;
+	float:left;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.slideinfo{
+	height:70px;
+	background-image: url('../images/slideshow_bg.png');
+	background-size: auto 70px;
+	margin-top: 265px;
+}
+
+.slideinfo_titulo{
+	font-size: 20px;
+	color:#fff;
+	padding-top: 15px;
+	padding-left: 20px;
+}
+
+.slideinfo_subtitulo{
+	font-size: 13px;
+	color:#fff;
+	padding-left: 20px;
+}
+
+.slidebolinhas{
+	position:absolute;
+	width: 200px;
+	height: 20px;
+}
+
+.bolinha{
+	width:20px;
+	height: 20px;
+	float:left;
+	margin-right: 5px;
+	cursor: pointer;
+	background-color:#ccc;
+	border-radius: 10px;
+}
+.active{
+	background-color:#ccc;
+	
 }
