@@ -348,3 +348,22 @@ body{
 	width:226px;
 	float:left;
 }
+
+.noticiabig{
+	margin-left:10px;
+}
+
+.noticiabig .noticiaimg{
+	width:384px;
+	height:222px;
+}
+
+.noticiabig .noticiaimg img{
+	width:384px;
+	height:222px;
+}
+
+.noticiabig .noticiatitulo{
+	font-size:30px;
+	width:384px;
+}
