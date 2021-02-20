@@ -1,3 +1,8 @@
-Primeiro Site
+Iniciando conhecimentos em programação Front End!
 
-Alterar o que quiser :)
+Projeto "Primeiro portal completo responsivo"
+
+Qualquer ajuda é muito bem vinda! :)
+
+Att
+Ricardo Oliveira
